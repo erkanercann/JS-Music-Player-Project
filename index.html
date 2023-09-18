@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#1a1a1d" />
+        <script
+            src="https://kit.fontawesome.com/2c82aca971.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Music Player Project</title>
+    </head>
+    <body>
+        <h1>Music Player</h1>
+        <div id="music-player" class="music-player">
+            <div class="img-wrapper">
+                <img
+                    src="images/Kağıttan Kaptanlar.jpg"
+                    alt="music-cover"
+                    id="song-image"
+                />
+            </div>
+            <div class="song-info">
+                <h4 id="song-title" class="song-title">Kağıttan Kaptanlar</h4>
+                <div id="progress-wrapper" class="progress-wrapper">
+                    <div id="progress" class="progress"></div>
+                </div>
+                <div id="duration-container" class="duration-container">
+                    <span id="current-time"></span>
+                    <button id="repeat" class="action-btn">
+                        <i class="fa-solid fa-repeat"></i>
+                    </button>
+                    <span id="total-duration"></span>
+                </div>
+            </div>
+
+            <audio id="audio" src="music/Kağıttan Kaptanlar.mp3"></audio>
+
+            <div class="actions">
+                <div class="action-volume">
+                    <div id="volume-bar-wrapper" class="volume-bar-wrapper">
+                        <div class="volume-bar" id="volume-bar"></div>
+                    </div>
+                    <button id="volume-btn" class="action-btn volume">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </button>
+                </div>
+                <div class="action-buttons">
+                    <button id="prev" class="action-btn">
+                        <i class="fa-solid fa-backward"></i>
+                    </button>
+                    <button id="play" class="action-btn play">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="next" class="action-btn">
+                        <i class="fa-solid fa-forward"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
