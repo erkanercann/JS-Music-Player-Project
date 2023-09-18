@@ -1,6 +1,7 @@
 # JavaScript Music Player Project
 
 This is a simple music player project built using Vanilla JavaScript.
+
 https://erkanercann.github.io/JS-Music-Player-Project/
 
 https://github.com/erkanercann/JS-Music-Player-Project/assets/126410424/d1a45a01-ee37-4c9b-beac-2f0c63fee1a7
